@@ -7,7 +7,7 @@ Customer churn refers to customers leaving a service provider. Predicting churn 
 
 ---
 
-# Dataset
+## Dataset
 
 This project uses the **Telco Customer Churn dataset**.
 
@@ -18,11 +18,13 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 https://www.kaggle.com/code/basmalaawad/telco-customer-churn-dataset
 
 Dataset Characteristics:
+
 - 7043 customer records
 - 21 features
 - Target variable: **Churn (Yes/No)**
 
 The dataset includes:
+
 - Customer demographics
 - Service subscription details
 - Billing information
@@ -31,19 +33,19 @@ The dataset includes:
 
 ---
 
-# Machine Learning Models
+## Machine Learning Models
 
-Two supervised machine learning algorithms were implemented:
+Two supervised machine learning algorithms were implemented.
 
 ### Logistic Regression
 A baseline linear classification model used for binary prediction.
 
 ### Random Forest
-An ensemble learning algorithm that builds multiple decision trees and combines their predictions using majority voting.
+An ensemble learning algorithm that builds multiple decision trees and combines their predictions.
 
 ---
 
-# Data Preprocessing
+## Data Preprocessing
 
 The following preprocessing steps were performed:
 
@@ -56,7 +58,7 @@ The following preprocessing steps were performed:
 
 ---
 
-# Results
+## Results
 
 | Model | Accuracy |
 |------|---------|
@@ -65,7 +67,7 @@ The following preprocessing steps were performed:
 
 ---
 
-# Evaluation Metrics
+## Evaluation Metrics
 
 The models were evaluated using:
 
@@ -77,18 +79,21 @@ The models were evaluated using:
 
 ---
 
-# Visualizations
+## Visualizations
 
-The project includes visual analysis such as:
+### ROC Curve
 
-- Confusion Matrix
-- ROC Curve
+![ROC Curve](ROC.png)
+
+### Confusion Matrix
+
+![Confusion Matrix](CONFUSION_MATRIX.png)
 
 These visualizations help evaluate model performance and classification behavior.
 
 ---
 
-# Technologies Used
+## Technologies Used
 
 - Python
 - Pandas
@@ -99,23 +104,32 @@ These visualizations help evaluate model performance and classification behavior
 
 ---
 
-# Project Structure
+## Requirements
+
+To run this project locally install dependencies:
+
+```
+pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+```
+
+---
+
+## Project Structure
 
 ```
 customer-churn-prediction-ml
 │
-├── customer_churn_prediction.ipynb
+├── Customer_Churn_Prediction.ipynb
 ├── Telco-Customer-Churn.csv
 ├── Customer_Churn_Prediction_Report.pdf
-├── images
-│   ├── roc_curve.png
-│   └── confusion_matrix.png
+├── ROC.png
+├── CONFUSION_MATRIX.png
 └── README.md
 ```
 
 ---
 
-# Business Impact
+## Business Impact
 
 Predicting customer churn helps companies:
 
@@ -126,7 +140,7 @@ Predicting customer churn helps companies:
 
 ---
 
-# Author
+## Author
 
 **Abhinav Saha**  
 Computer Engineering Student  
