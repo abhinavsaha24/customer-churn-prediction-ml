@@ -84,7 +84,7 @@ The models were evaluated using:
 
 ### Confusion Matrix
 
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](confusion.png)
 
 These visualizations help evaluate model performance and classification behavior.
 
