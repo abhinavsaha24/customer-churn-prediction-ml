@@ -80,11 +80,11 @@ The models were evaluated using:
 
 ### ROC Curve
 
-![ROC Curve](ROC.png)
+![ROC Curve](roc_curve.png)
 
 ### Confusion Matrix
 
-![Confusion Matrix](confusion.png)
+![Confusion Matrix](confusion_matrix.png)
 
 These visualizations help evaluate model performance and classification behavior.
 
