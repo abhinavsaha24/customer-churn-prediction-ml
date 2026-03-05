@@ -12,9 +12,6 @@ Customer churn refers to customers leaving a service provider. Predicting churn 
 This project uses the **Telco Customer Churn dataset**.
 
 📊 Dataset Source  
-https://www.kaggle.com/datasets/blastchar/telco-customer-churn
-
-📘 Kaggle Notebook Reference  
 https://www.kaggle.com/code/basmalaawad/telco-customer-churn-dataset
 
 Dataset Characteristics:
@@ -87,7 +84,7 @@ The models were evaluated using:
 
 ### Confusion Matrix
 
-![Confusion Matrix](CONFUSION_MATRIX.png)
+![Confusion Matrix](confusion_matrix.png)
 
 These visualizations help evaluate model performance and classification behavior.
 
